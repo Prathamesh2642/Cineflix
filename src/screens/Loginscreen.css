@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginscreen{
+    background-image:linear-gradient(#632DC7,#00064E);
+    /* background: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg"); */
+    /* background: url("D:\\MRS04\\netflix-clone\\src\\screens\\1512217.jpg"); */
+    min-height: 100%;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* padding:1rem; */
+    /* position:absolute; */
+    /* min-height: 750px;
+    max-height: ; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* min-width: 1080px; */
+    /* height:100%; */
+    /* height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */ 
+        /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"); */
+        /* background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center; */
+
+      }
+.loginscreen_gradient{
+    width:100%;
+    height: 100%;
+    z-index: 1;
+    height:100vh;
+    background:rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,rgba(0,0,0,0)60%,tgba(0,0,0,0.8)100%
+    );
+}
+
+.cineflix_logo{
+    position: fixed;
+    top:0;
+    left:0;
+    padding:20px;
+    /* height:40px; */
+    width:90px;
+}
+.image_div{
+        float: right;
+        padding: 1px;
+        margin-right: 100px;;
+      
+}
+
+.image{
+
+    padding-left: 20px;
+    float:center;
+    margin:auto;
+    /* margin-right: 100px; */
+    /* margin-bottom:200px; */
+    margin-left:300px;
+    /* display: flex; */
+    top:20%;
+    max-height:45%;
+    max-width: 60%;
+    
+}
+/* .hellohello{
+    display: inline;
+} */
+.text{
+    margin-left:20px ;
+    color:white;
+    padding:5px;
+    text-align: center;
+}
+.welcometext{
+padding: 5px;
+margin:5px;
+font-size: 2rem;
+font-weight: 600;
+line-height:normal;
+}
+.welcometext2{
+    padding: 5px;
+    margin:5px;
+    font-weight: 600;   
+
+    }
+.signintext{
+    padding: 2px;
+    margin:2px;
+    font-weight: 600;
+
+}
+.text > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height:20px;
+    width:30%;
+    max-width: 500px;
+    cursor:pointer;
+}
+
+.text>form>button{
+padding:12px 16px;
+font-size: 1rem;
+color: #fff;
+background-color: #00cd22;
+border: none;
+font-weight: 400;
+cursor: pointer;
+word-spacing: 1px;
+}
+/* .loginscreen> img{
+        height: 10%;
+        width: 10%;
+      } */
+
+/* .backgroundimage{
+    width:100%;
+    position: absolute;
+    background-image: url("D:\\MRS04\\netflix-clone\\src\\screens\\wallpaperflare.com_wallpaper.jpg") center no-repeat;
+
+} */
+/* .nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    padding:15px;
+    width:100%;
+    height: 30px;
+    justify-content: space-between;
+    background-color: #111;
+} */
+/* .cineflix_logo{
+    position:fixed;
+    left:0;
+    height: 100000px ;
+    width: 10000px ;
+    /* object-fit: contain; */
+    /* padding:20px; */
+/* } *//* */
+
+.signinbutton{
+    position: fixed;
+    right:20px;
+    top: 16px;
+    padding:5px 20px;
+    color:white;
+    background-color: #00cd22;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+
+.signinbutton:hover{
+    transform: scale(1.08);
+    /* transition: transform 100ms; */
+}
+
+/* .fullbackground{ */
+    /* background: url("D:\\MRS04\\netflix-clone\\src\\screens\\1512217.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: relative ;
+    height: 100%; 
+    width: 100%;
+    object-fit: contain;
+    vertical-align: bottom;
+    position:fixed;
+    max-width: fit-content; */
+
+/* } */
+
+/* .welcometext{
+    color:white;
+    z-index: 1;
+    padding: 20px;
+} */
+
+.welcometext>h1{
+    position:absolute;
+    top:30%;
+    right: 20px;
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    padding: 20px;;
+}

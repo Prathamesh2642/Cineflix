@@ -1,0 +1,26 @@
+.nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    padding:15px;
+    /* margin-bottom: 20px; */
+    width:100%;
+    height: 30px;
+    justify-content: space-between;
+    background-color: #111;
+    /* background-image: linear-gradient(#632DC7,#00064E); */
+    background-image: linear-gradient(to bottom,grey,black);
+}
+.movieflixlogo{
+    position:fixed;
+    left:0;
+    width:90px;
+    object-fit: contain;
+    /* padding:20px; */
+}
+.Watchlist{
+    position: fixed;
+    right:20px;
+    width:45px;
+    object-fit: contain;
+}

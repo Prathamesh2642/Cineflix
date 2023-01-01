@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.signinscreen{
+background-image: linear-gradient(#632DC7,#00064E);
+min-width: 100%;
+min-height: 100%;
+max-width: 100%;
+max-width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;;
+}
+
+.signindiv{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(0,0,0,0.85);
+}
+
+/* .signindiv >form{
+    display: grid;
+    flex-direction: column;
+    padding:10px;
+} */
+
+/* form{
+    padding:300px;
+    margin:0 auto;
+    margin-left: 400px;
+} */
